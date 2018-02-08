@@ -1,0 +1,23 @@
+<h1>Bienvenue</h1>
+<br/>
+<div align="center">
+<p>Ici sont recensés les évènements légaux et illégaux les plus prisés d'Europe.</p>
+<p>Que tu préfères enflammer le dancefloor ou taper du pied après un bon rail de coco, ce site est fait pour toi ! </p>
+</div>
+
+<%= link_to root_path do %>
+  <div style="float:right; width: 50%">
+  	<%= image_tag('tomorrowland-2012.jpg') %>
+  </div>
+<% end %>
+<%= link_to root_path do %>
+  	<div style="float:left;">
+  <%= image_tag('booba.jpg') %>
+  </div>
+<% end %>
+
+
+<br/> <br/> <br/> <br/> <br/>
+<div align="center">
+<%= link_to "Inscris toi vite !", signup_path, class: "btn btn-danger" %>
+</div>
